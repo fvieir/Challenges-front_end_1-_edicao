@@ -1,0 +1,16 @@
+.header__search {
+    border: none;
+    border-radius: 8px;
+    width: 752px;
+    height: 40px;
+    padding: 5px 10px;
+    background: rgba(255, 255, 255, 0.16);
+    opacity: 0.5;
+    font-size: 16px;
+    color: #FFFFFF;
+    outline: 0;
+}
+
+.header__search::placeholder {
+    color: #FFFFFF;
+}
