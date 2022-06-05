@@ -1,8 +1,9 @@
 .header__search {
     border: none;
     border-radius: 8px;
-    width: 752px;
+    width: 60%;
     height: 40px;
+    margin: 0 0.3125rem;
     padding: 5px 10px;
     background: rgba(255, 255, 255, 0.16);
     opacity: 0.5;
