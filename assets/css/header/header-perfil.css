@@ -1,8 +1,8 @@
 .header__perfil {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
     align-items: center;
-    width: 10%;
+    width: 15%;
 }

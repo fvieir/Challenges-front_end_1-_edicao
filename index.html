@@ -48,18 +48,22 @@
                 <div>CORPO</div>
             </section>
             <section class="side-navigation-menu">
-                <label for="my-project">SEU PROJETO</label>
-                <input type="text" name="name-project" id="name-project" placeholder="Nome do seu projeto">
-                <input type="text" name="description-project" id="description-project" placeholder="Descrição do seu projeto">
-                <label for="personalization">PERSONALIZAÇÃO</label>
-                <select name="language">
-                    <option value="JS" select>JAVASCRIPT</option>
-                    <option value="PHP">PHP</option>
-                    <option value="JAVA">JAVA</option>
-                    <option value="PYTHON">PYTHON</option>
-                </select>
-                <input type="text" name="color" id="color">
-                <button>Salvar Projeto</button>
+                <div class="side-navigation-menu__element">
+                    <label class="side-navigation-menu__label" for="my-project">SEU PROJETO</label>
+                    <input class="side-navigation-menu__input" type="text" name="name-project" id="name-project" placeholder="Nome do seu projeto">
+                    <input class="side-navigation-menu__input" type="text" name="description-project" id="description-project" placeholder="Descrição do seu projeto">
+                </div>
+                <div class="side-navigation-menu__element">
+                    <label class="side-navigation-menu__label" for="personalization">PERSONALIZAÇÃO</label>
+                    <select class="side-navigation-menu__input" name="language">
+                        <option value="JS" select>JAVASCRIPT</option>
+                        <option value="PHP">PHP</option>
+                        <option value="JAVA">JAVA</option>
+                        <option value="PYTHON">PYTHON</option>
+                    </select>
+                    <div class="side-navigation-menu__color"></div>
+                </div>
+                <button class="side-navigation-menu__btn-save" >Salvar Projeto</button>
             </section>
         </div>
     </main>
