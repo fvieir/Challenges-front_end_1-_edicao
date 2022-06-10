@@ -1,7 +1,7 @@
 .side-navigation-menu {
     display: flex;
     flex-direction: column;
-    width: 15%;
+    width: 20%;
     height:calc(100vh - 150px);
     gap: 30px;
 }
@@ -41,16 +41,14 @@
     color: #FFFFFF;
 }
 
-.side-navigation-menu__color {
-    background-color: #5081FB;
-}
-
 .side-navigation-menu__input-color {
     width: auto;
-    height: 39px;
-    box-shadow: none;
-    outline: none;
+    background: none;
+    height: 3rem;
+    box-shadow: none; 
+    border-color: #FFFFFF;
     border-radius: 0.4125rem;
+    cursor: pointer;
 }
 
 .side-navigation-menu__btn-save {
