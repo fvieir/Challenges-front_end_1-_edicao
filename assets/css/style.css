@@ -1,3 +1,24 @@
 body {
     background-color: #051D3B;
 }
+
+button,input,select,option {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+button {
+    cursor: pointer;
+}
+
+textarea {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+    font-size: 0.875rem;
+    resize: none;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 18px;
+}
+    
