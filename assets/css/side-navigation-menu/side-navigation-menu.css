@@ -12,6 +12,12 @@
     gap: 10px;
 }
 
+.side-navigation-menu__element-personalization {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
 .side-navigation-menu__label {
     color: #FFFFFF;
     font-size: 16px;
@@ -58,4 +64,58 @@
     border: none;
     border-radius: 0.4125rem;
     color: #051D3B;
+}
+
+@media screen and (max-width: 768px) {
+    .side-navigation-menu  {
+        width: 100%;
+    }
+
+    .side-navigation-menu__element-personalization {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .side-navigation-menu__element-personalization .side-navigation-menu__label {
+        width: 100%;
+        margin-right: auto;
+    }
+    
+    .side-navigation-menu__element-personalization .side-navigation-menu__input {
+        width: 48%;
+    }
+    
+    .side-navigation-menu__element-personalization .side-navigation-menu__input-color {
+        width: 48%;
+    }
+
+    .side-navigation-menu__element-personalization .side-navigation-menu__btn-save {
+        width: 100%;
+    }
+
+    @media screen and (max-width: 375px) {
+        .side-navigation-menu__element-personalization {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+        }
+    
+        .side-navigation-menu__element-personalization .side-navigation-menu__label {
+            width: 100%;
+        }
+        
+        .side-navigation-menu__element-personalization .side-navigation-menu__input {
+            width: 100%;
+        }
+        
+        .side-navigation-menu__element-personalization .side-navigation-menu__input-color {
+            width: 100%;
+        }
+    
+        .side-navigation-menu__element-personalization .side-navigation-menu__btn-save {
+            width: 100%;
+        }
+    }
+
 }

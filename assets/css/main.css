@@ -1,6 +1,21 @@
 .main .main__container {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   margin: 1.875rem 1.25rem 0;
 }
+
+@media screen and (max-width: 768px) {
+  main .main__container {
+    flex-direction: column;
+  }
+
+  .navigation-menu {
+    display: none;
+  }
+
+  .body {
+    width: 100%;
+  }
+
+}
+
